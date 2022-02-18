@@ -1,7 +1,15 @@
-public class Sample2_1 {
+public class Sample2_2 {
 
-	//メインメソッド
     public static void main(String[] args) {
-        System.out.println("こんにちわ！つじけさん！");
+        new Sample2_2().hello(); // => こんにちわ！
+        new Sample2_2().bye(); // => さようなら。
+    }
+
+    void hello() {
+        System.out.println("こんにちわ！");
+    }
+
+    void bye() {
+        System.out.println("さようなら。");
     }
 }
